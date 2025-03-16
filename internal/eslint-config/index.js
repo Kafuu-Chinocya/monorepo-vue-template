@@ -180,7 +180,7 @@ export default tseslint.config(
   },
 
   {
-    files: ['package.json'],
+    files: ['**/package.json'],
     languageOptions: {
       parser: jsoncParser
     },

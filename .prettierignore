@@ -1,0 +1,6 @@
+.idea
+.husky
+node_modules
+dist
+CHANGELOG*.md
+pnpm-lock.yaml

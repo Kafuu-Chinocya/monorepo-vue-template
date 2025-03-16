@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.web.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"]
+  },
+  "include": [
+    "packages",
+    "typings/global.d.ts",
+    "typings/env.d.ts",
+
+    // playground
+    "play/vite-env.d.ts",
+    "play/src/**/*",
+    "play/src/main.ts"
+  ]
+}

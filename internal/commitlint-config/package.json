@@ -1,0 +1,8 @@
+{
+  "name": "@monorepo-vue-template/commitlint-config",
+  "type": "module",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.ts",
+  "dependencies": {}
+}

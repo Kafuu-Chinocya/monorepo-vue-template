@@ -1,0 +1,42 @@
+{
+  "eslint.codeActionsOnSave.mode": "all",
+  "editor.formatOnSave": true,
+  "prettier.enable": true,
+  "npm.packageManager": "pnpm",
+  "files.eol": "\n",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.git": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true
+  },
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc"
+  ]
+}

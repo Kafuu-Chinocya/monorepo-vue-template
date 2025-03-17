@@ -4,7 +4,6 @@ import tsParser from '@typescript-eslint/parser'
 import pluginVue from 'eslint-plugin-vue'
 import jsoncParser from 'jsonc-eslint-parser'
 import eslintPluginJsonc from 'eslint-plugin-jsonc'
-import markdown from '@eslint/markdown'
 import vueParser from 'vue-eslint-parser'
 import eslintPluginPrettier from 'eslint-plugin-prettier'
 import importPlugin from 'eslint-plugin-import'
@@ -15,7 +14,6 @@ export default tseslint.config(
   importPlugin.flatConfigs.recommended,
   ...pluginVue.configs['flat/recommended'],
   ...eslintPluginJsonc.configs['flat/recommended-with-jsonc'],
-  markdown.configs.recommended,
 
   {
     languageOptions: {

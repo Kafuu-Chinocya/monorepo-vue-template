@@ -33,7 +33,6 @@
     "@monorepo-vue-template/commitlint-config": "workspace:*",
     "@monorepo-vue-template/eslint-config": "workspace:*",
     "@types/node": "^22.13.10",
-    "@vitejs/plugin-vue-jsx": "catalog:",
     "@vue/tsconfig": "^0.7.0",
     "commitizen": "^4.3.1",
     "cross-env": "^7.0.3",
